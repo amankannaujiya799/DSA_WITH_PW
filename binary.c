@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int arr[] = {10, 20, 30, 40, 50}, n = 5, key = 30;
+    int arr[] = {10, 20, 30, 40, 50}, n=5, key = 50;
     int low = 0, high = n-1, mid, found = 0;
     
     while (low <= high) {
