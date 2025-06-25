@@ -1,10 +1,30 @@
-public class Array {
-    
-    public static void main(String[] args) {
-        int [] arr  = {10,2,0,3,0,1,0};
-         int num  = arr.length;
-         System.out.println(num);
+import java.util.Scanner;
 
-        
+public class Array {
+    public static void main(String[] args) {
+        int matrix[][] = new int[3][3];
+        int n = 3, m =3;
+        Scanner sc = new Scanner(System.in);
+        for(int i =0; i<n; i++)
+        {
+            for(int j= 0; j<m; j++)
+
+            {
+                matrix[i][j] = sc.nextInt();
+            }
+        }
+
+         for(int i =0; i<n; i++)
+        {
+            for(int j= 0; j<m; j++)
+            {
+                System.out.print(matrix[i][j] + " ");
+            }
+
+            System.out.println();
+
     }
+}
+
+
 }
